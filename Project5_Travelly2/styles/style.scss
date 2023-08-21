@@ -1,0 +1,238 @@
+@font-face {
+    font-family: abril-regular;
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: monsterat-regular;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@import "global";
+@import "header";
+@import "slides";
+@import "nav";
+@import "cursor";
+@import "swipes";
+@import "fashion";
+//@import "mobile";
+
+@media screen and (max-width: 1500px){
+    .hero-desc h2{
+        font-size: 3rem;
+    }
+
+    .hero-desc p{
+        font-size: 1.2rem;
+    }
+
+    .nav-links{
+        font-size: 2.5rem;
+        flex-basis: 30rem;
+    }
+    
+    .nav-links h3{
+        padding: 2rem 0rem;
+    }
+
+    //................................................
+
+    .fashion-text{
+        h1{
+            font-size: 5rem;
+            padding: 5rem 0rem;
+        }
+    }
+    .fashion-nr{
+        span{
+            font-size: 12rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1250px){
+    .fashion-text{
+        h1{
+            font-size: 4rem;
+            padding: 5rem 0rem;
+        }
+
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .fashion-nr{
+        span{
+            font-size: 10rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .hero-desc h2{
+        font-size: 2.5rem;
+    }
+
+    .hero-desc p{
+        padding: 3rem 0rem;
+        font-size: 1rem;
+    }
+
+    .explore{
+        padding: 1rem 2rem;
+        font-size: 0.75rem;
+    }
+    
+    .nav-links{
+        font-size: 2rem;
+        flex-basis: 30rem;
+    }
+    
+    .nav-links h3{
+        padding: 1.5rem 2rem;
+    }
+
+    .contact h2{
+        font-size: 1.5rem;
+        padding: 1.5rem 0rem;
+    }
+    
+    .contact p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    //................................................
+    .fashion1,
+    .fashion2,
+    .fashion3{
+        width: 90%;
+    }
+
+    .fashion-text{
+        h1{
+            font-size: 3rem;
+            padding: 2.5rem 0rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    .fashion-nr{
+        span{
+            font-size: 8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .hero-desc h2{
+        font-size: 2rem;
+    }
+
+    .hero-desc p{
+        padding: 2rem 0rem;
+        font-size: 0.75rem;
+    }
+
+    .explore{
+        padding: 1rem 2rem;
+        font-size: 0.8rem;
+    }
+    
+    //...........................................
+
+    .fashion-text{
+        padding: 0rem 3rem;
+
+        h1{
+            font-size: 2.5em;
+            padding: 1.5rem 0rem;
+        }
+
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .fashion-img{
+        height: 65vh;
+    }
+
+    .fashion-nr{
+        span{
+            font-size: 5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .slide{
+        width: 95%;
+    }
+    .hero-desc{
+        padding-left: 2.5rem;
+    }
+
+    .nav-header {
+        padding: 1rem 0rem;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .slide{
+        width: 95%;
+    }
+    .hero-desc{
+        padding-left: 2rem;
+    }
+
+    .explore{
+        padding: 0.5rem 1rem;
+        font-size: 0.5rem;
+    }
+
+    .hero-desc p{
+        padding: 1.5rem 0rem;
+    }
+
+    .hero-desc h2{
+        font-size: 2rem;
+    }
+
+    .nav-links{
+        font-size: 1.2rem;
+        flex-basis: 30rem;
+    }
+    
+    .nav-links h3{
+        padding: 1rem 1.5rem;
+    }
+
+    .contact h2{
+        font-size: 1rem;
+        padding: 1.5rem 0rem;
+    }
+    
+    .contact p{
+        font-size: 0.7rem;
+        line-height: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 460px){
+
+    .hero-desc p{
+        padding: 1rem 0rem;
+        font-size: 0.5rem;
+    }
+
+    .hero-desc h2{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,33 @@
+#logo{
+    color: white;
+    font-family: abril-regular;
+    text-decoration: none;
+}
+
+.nav-header {
+    min-height: 10vh;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0rem;
+    position: relative;
+    z-index: 2;
+}
+
+.line1,
+.line2{
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: white;
+    pointer-events: none;
+}
+
+.burger{
+    cursor: pointer;
+}
+
